@@ -21,13 +21,8 @@ $tone = isset($input['tone']) ? htmlspecialchars($input['tone']) : 'Professional
 $prompt = "Write 3 Instagram captions about '$topic'. Tone: $tone. Include emojis.";
 
 // ============================================================
-// TODO: INTEGRATE YOUR AI SERVICE HERE
+// INTEGRATE YOUR AI SERVICE HERE
 // ============================================================
-// You can use curl to call OpenAI, OpenRouter, or Anthropic.
-// The following is a MOCK response for demonstration purposes.
-
-// Simulate network delay
-sleep(1); 
 
 $mockResponse = [
     "captions" => [
